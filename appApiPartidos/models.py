@@ -5,6 +5,7 @@ class Partidos(models.Model):
     CATEGORIA_CHOICES = [
         ('primera A', 'Primera A'),
         ('primera B', 'Primera B'),
+        ('copa Bet Play', 'Copa Bet Play'),
     ]
 
     categoria = models.CharField(
