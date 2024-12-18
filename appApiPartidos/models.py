@@ -6,6 +6,7 @@ class Partidos(models.Model):
         ('primera A', 'Primera A'),
         ('primera B', 'Primera B'),
         ('copa Bet Play', 'Copa Bet Play'),
+
     ]
 
     categoria = models.CharField(

@@ -7,4 +7,5 @@ router.register(r'partidos', PartidosViewSet)
 
 urlpatterns = [
     path('', include(router.urls)),
-]
+    ]
+
